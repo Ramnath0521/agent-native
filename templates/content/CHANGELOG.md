@@ -22,6 +22,7 @@ time from the command menu (Cmd+K → "What's new").
 
 ### Fixed
 
+- Two collections connected to the same Builder model can no longer push over each other's changes to the same entry at the same moment.
 - Restoring page history preserves text without exposing unauthorized private callout images
 - An agent's Accept on words someone is still typing in returns the suggestion to pending instead of failing with a server error
 - Opening a page you can't access goes straight to the no-access screen without a brief error first, including when you come back to it
